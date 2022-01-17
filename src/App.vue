@@ -119,5 +119,11 @@ export default defineComponent({
          border-left-width: 2px;
       }
    }
+
+   @media screen and (max-width: 500px) {
+      &__list {
+         padding: 30px 10px;
+      }
+   }
 }
 </style>
